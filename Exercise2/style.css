@@ -15,10 +15,10 @@ h1 {
   font-style: italic;
 }
 
-.current-price {
+.stock-details .current-price {
   color: green;
 }
 
-.price-change {
+.stock-details .price-change {
   color: red;
 }
