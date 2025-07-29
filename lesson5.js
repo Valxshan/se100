@@ -1,13 +1,14 @@
-function getNumberPromise() {
-  // Write your code here
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(10);
-    }, 2000); // 2000 milliseconds = 2 seconds
-  });
-}
+// API Key:
+// VXXSQOS6NZFDXR4X
 
-// Test the function
-getNumberPromise().then((value) => {
-  console.log(value); // Should log 10 after 2 seconds
-});
+// https://www.alphavantage.co/query?
+// function=OVERVIEW
+// &symbol=IBM
+// &apikey=VXXSQOS6NZFDXR4X
+
+//https://www.alphavantage.co/query?
+// function=EARNINGS
+// &symbol=MSFT
+// &apikey=VXXSQOS6NZFDXR4X
+
+// How to get data in API
